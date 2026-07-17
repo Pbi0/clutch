@@ -19,7 +19,7 @@ With the following parameters :
 
 We get the following evolution :
 
-![Evolution of the distribution.](https://github.com/Pbi0/clutch/blob/main/src/diffpriv/private_multiplicative_weights/gif/heterogenous_database/evolution_distrib.gif?raw=true "Evolution of the distribution.")
+![Evolution of the distribution.](evolution_distrib.gif?raw=true "Evolution of the distribution.")
 
 We don't have the issue in the normalizing step.
 
@@ -36,7 +36,7 @@ With the following parameters :
 
 We get the following evolution :
 
-![Evolution of the distribution.](https://github.com/Pbi0/clutch/blob/main/src/diffpriv/private_multiplicative_weights/gif/heterogenous_database/evolution_distrib_issue.gif?raw=true "Evolution of the distribution with overestimation of the first elements.")
+![Evolution of the distribution.](evolution_distrib_issue.gif?raw=true "Evolution of the distribution with overestimation of the first elements.")
 
 We can see the issue in the scaling step.
 The firsts elements are overestimated and
@@ -53,7 +53,7 @@ While with the following parameters :
 
 We get the following evolution :
 
-![Evolution of the distribution.](https://github.com/Pbi0/clutch/blob/main/src/diffpriv/private_multiplicative_weights/gif/heterogenous_database/evolution_distrib_adapted_factor.gif?raw=true "Evolution of the distribution with an addapted learning factor.")
+![Evolution of the distribution.](evolution_distrib_adapted_factor.gif?raw=true "Evolution of the distribution with an addapted learning factor.")
 
 We can see that there is no longer overestimation and that the convergence is 
 faster as well. However there is more gittering (it is less precise than the

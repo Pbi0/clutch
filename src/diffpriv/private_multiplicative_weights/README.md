@@ -4,8 +4,8 @@ In this folder you will find an OCaml implementation of:
 - Numeric Sparse Vector technique
 - Private Multiplicative Weights
 
-The programs [`main_nsvt.ml`](https://github.com/Pbi0/clutch/blob/main/src/diffpriv/numeric_sparse_vector/main_nsvt.ml)
-and [`main_pmw.ml`](https://github.com/Pbi0/clutch/blob/main/src/diffpriv/numeric_sparse_vector/main_pmw.ml)
+The programs [`main_nsvt.ml`](main_nsvt.ml)
+and [`main_pmw.ml`](main_pmw.ml)
 are tests calling the two methods.
 
 ## nSVT
@@ -41,14 +41,14 @@ not change anything for the privacy one.
 That is why we are making this choice. Then the threshold will need 
 to be modified depending on the database under study.
 
-For the [`main_pmw.ml`](https://github.com/Pbi0/clutch/blob/main/src/diffpriv/numeric_sparse_vector/main_pmw.ml)
-example, we consider the database that are randomly generated  [`rd_data.csv`](https://github.com/Pbi0/clutch/blob/main/src/diffpriv/numeric_sparse_vector/data/rd_data.csv)
+For the [`main_pmw.ml`](main_pmw.ml)
+example, we consider the database that are randomly generated  [`rd_data.csv`](data/rd_data.csv)
 .
 Or the databases from ... (!!!push and cite the database.)
 
 In order to manage the databases, inputs, outputs and histograms we uses 
 functions defined in 
-[`utils.ml`](https://github.com/Pbi0/clutch/blob/main/src/diffpriv/numeric_sparse_vector/utils.ml).
+[`utils.ml`](utils.ml).
 
 When calling:
 ```bash
@@ -72,14 +72,14 @@ It then uses a natural (int) distribution / it is not normalized.
 
 ## DATA
 
-To get the data, you can go to [`data/`](https://github.com/Pbi0/clutch/tree/main/src/diffpriv/private_multiplicative_weights/data).
+To get the data, you can go to [`data/`](data/).
 
 ## GIF
 
 If you want to have a gif illustration of the distribution evolution during
 the pmw, you can add the argument `--gif` when calling
-[`main_pmw.ml`](https://github.com/Pbi0/clutch/blob/main/src/diffpriv/numeric_sparse_vector/main_pmw.ml)
-and then can go to [`gif/`](https://github.com/Pbi0/clutch/tree/main/src/diffpriv/private_multiplicative_weights/gif)
+[`main_pmw.ml`](main_pmw.ml)
+and then can go to [`gif/`](gif/)
 where you will find in the folder `gif/data/` all the distribution that $h$
 went through. The 0 database is the real database.
 In order to get the gif, go in the `gif/` folder and run:
@@ -94,19 +94,11 @@ or
 It will build the gif under the name of `evolution_distrib.gif`.
 What follows is a output of this function.\
 You can find the parameters for this
-output in [gif/ref_evolution/](https://github.com/Pbi0/clutch/blob/main/src/diffpriv/private_multiplicative_weights/gif/ref_evolution/).
+output in [gif/ref_evolution/](gif/ref_evolution/).
 
-![Evolution of the distribution.](https://github.com/Pbi0/clutch/blob/main/src/diffpriv/private_multiplicative_weights/gif/ref_evolution/evolution_distrib.gif?raw=true "Evolution of the distribution.")
+![Evolution of the distribution.](gif/ref_evolution/evolution_distrib.gif?raw=true "Evolution of the distribution.")
 
 ## NOTES
 
-We use the probability sampler from [`noiseSampling.ml`](https://github.com/Pbi0/clutch/blob/main/src/diffpriv/numeric_sparse_vector/noiseSampling.ml)
-
-test
-
 We use the probability sampler from [`noiseSampling.ml`](noiseSampling.ml)
-which is a truncated part 
-
-end test
-
-of the file [`../differential_privacy.ml`](../differential_privacy.ml).
+which is a truncated part of the file [`../differential_privacy.ml`](../differential_privacy.ml).
