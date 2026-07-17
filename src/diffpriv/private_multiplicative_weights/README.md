@@ -101,5 +101,12 @@ output in [gif/ref_evolution/](https://github.com/Pbi0/clutch/blob/main/src/diff
 ## NOTES
 
 We use the probability sampler from [`noiseSampling.ml`](https://github.com/Pbi0/clutch/blob/main/src/diffpriv/numeric_sparse_vector/noiseSampling.ml)
+
+test
+
+We use the probability sampler from [`noiseSampling.ml`](noiseSampling.ml)
 which is a truncated part 
-of the file [`../differential_privacy.ml`](https://github.com/Pbi0/clutch/blob/main/src/diffpriv/differential_privacy.ml).
+
+end test
+
+of the file [`../differential_privacy.ml`](../differential_privacy.ml).
