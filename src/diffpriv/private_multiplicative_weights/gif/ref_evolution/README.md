@@ -14,4 +14,4 @@ The parameters are the following:
 | $\eta$        | $\alpha/2$ |
 
 
-![Evolution of the distribution.](https://github.com/Pbi0/clutch/blob/pMW_formal/src/diffpriv/private_multiplicative_weights/gif/ref_evolution/evolution_distrib.gif?raw=true "Evolution of the distribution.")
+![Evolution of the distribution.](https://github.com/Pbi0/clutch/blob/main/src/diffpriv/private_multiplicative_weights/gif/ref_evolution/evolution_distrib.gif?raw=true "Evolution of the distribution.")
