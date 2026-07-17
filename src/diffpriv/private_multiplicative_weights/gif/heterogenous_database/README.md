@@ -13,8 +13,8 @@ With the following parameters :
 |   Parameter   |    Value   |
 |:--------------|-----------:|
 | $\varepsilon$ |        $1$ |
-| $\alpha$      |     $1/10$ |
-| $\beta$       |     $1/10$ |
+| $\alpha$      |    $1/100$ |
+| $\beta$       |    $1/100$ |
 | $\eta$        | $\alpha/2$ |
 
 We get the following evolution :
