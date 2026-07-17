@@ -10,7 +10,8 @@ python gen_data.py
 
 In the current version the script writes in the file `rd_data.csv` a random 
 sequence of integers between 0 and 9 with a probability of $\frac{1}{4}$ for 1, 
-$\frac{1}{16}$ for 2 and so on (exponential) and stops at 12.
+$\frac{1}{16}$ for 2 and so on (exponential) and stops at 12, and then with the
+remaining probabilty for 13.
 
 ## Other data
 
